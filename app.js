@@ -3,7 +3,7 @@ var prompt = require('prompt');
 var schema = { properties: {
     username: { required: true },
     password: { hidden: true }
-  }};
+}};
 
 var options = { desiredCapabilities: { browserName: 'firefox' } };
 var client = webdriverio.remote(options);
